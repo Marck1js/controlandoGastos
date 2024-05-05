@@ -1,7 +1,7 @@
 import * as React from "react"
 import Svg, { Path } from "react-native-svg"
 
-function SvgSearch({fill = '#000'},props) {
+function SvgSearch({fill = '#fff'},props) {
   return (
     <Svg
       xmlns="http://www.w3.org/2000/svg"

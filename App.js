@@ -14,10 +14,16 @@ export default function App() {
           <SvgSearch />
         </View> */}
 
-        <View className={`${styleCenter.center} h-[100] mx-[10px] bg-[#fff] rounded-lg`}>
-          <Text className='text-[32px] text-green-400'>${Number(12340).toFixed(2)}</Text>
-          <Text className='italic text-black text-[12px]'>Dinero Disponible</Text>
-        </View>
+        {/* <View
+          className={`${styleCenter.center} h-[100] mx-[10px] bg-[#fff] rounded-lg`}
+        >
+          <Text className="text-[32px] text-green-400">
+            ${Number(12340).toFixed(2)}
+          </Text>
+          <Text className="italic text-black text-[12px]">
+            Dinero Disponible
+          </Text>
+        </View> */}
 
         <TopBar />
       </SafeAreaView>

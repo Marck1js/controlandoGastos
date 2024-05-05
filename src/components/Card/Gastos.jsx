@@ -12,7 +12,7 @@ export default function Gastos({ bg ,kind='entertainment',percent = 61.5, childr
         <View
             style={{backgroundColor: bg ? `#${bg}` : '#000'}}
           className={`
-          h-[40] w-[40]  rounded-[50px]
+          h-[45] w-[45]  rounded-[50px]
           ${styleCenter.center}
           `}
         >
